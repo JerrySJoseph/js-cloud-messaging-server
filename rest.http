@@ -1,0 +1,27 @@
+
+POST http://localhost:3000/send-push
+Content-Type: application/json
+{
+    "uid":"68570763210eabbb",
+    "title":"JS Cloud Server",
+    "content":"How are you?"
+}
+###
+
+POST http://localhost:3000/send-message
+Content-Type: application/json
+{
+    "uid":"68570763210eabbb",
+    "title":"JS Cloud Server",
+    "content":"I still see you buddy"
+}
+###
+
+POST http://localhost:3000/notifyall
+Content-Type: application/json
+{
+    "uid":"68570763210eabbb",
+    "title":"JS Cloud Server",
+    "content":"I still see you buddy"
+}
+###
