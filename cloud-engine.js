@@ -11,8 +11,6 @@ const initEngine = (app, PORT) => {
   });
 };
 
-
-
 function registerEvents(io) {
 
   //To listen to messages
